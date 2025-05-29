@@ -1,0 +1,9 @@
+--- Grubbin Sandwich Deli Receipt ---
+Order placed: 20250529-153334
+
+Order details:
+1. 12-inch Current Sandwich: Wheat bread, Steak (extra), American cheese (extra cheese), with Cucumbers, Pickles, with Mustard, toasted - $17.65
+
+Total: $17.65
+
+Thank you for your order!
