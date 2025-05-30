@@ -30,3 +30,13 @@ Total: $3.50
 
 Thank you for your order!
 =====================================
+--- Grubbin Sandwich Deli Receipt ---
+Order placed: 20250530-065639
+
+Order details:
+1. 4-inch Current Sandwich: White bread, Steak (extra), American cheese (extra cheese), with Lettuce, Peppers, with Mayo, Vinaigrette, toasted - $8.05
+
+Total: $8.05
+
+Thank you for your order!
+=====================================

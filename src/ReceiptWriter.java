@@ -8,12 +8,13 @@ import java.util.Date;
 public class ReceiptWriter {
 
     public static void writeOrderToFile(ArrayList<String> order, double total) {
-        String filename = "receipts.txt";  // fixed filename
+        // Timestamp to make each file unique
+        String timestamp = new SimpleDateFormat("yyyyMMdd-HHmmss").format(new Date()); // gets date
 
-        // Get the current date and time
-        String timestamp = new SimpleDateFormat("yyyyMMdd-HHmmss").format(new Date());
+        // Custom file name format: "Customer Order-TIMESTAMP.txt"
+        String filename = "Customer Order-" + timestamp + ".txt";
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename, true))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
             writer.write("--- Grubbin Sandwich Deli Receipt ---\n");
             writer.write("Order placed: " + timestamp + "\n\n");
             writer.write("Order details:\n");
@@ -22,7 +23,7 @@ public class ReceiptWriter {
             }
             writer.write("\nTotal: $" + String.format("%.2f", total) + "\n");
             writer.write("\nThank you for your order!\n");
-            writer.write("=====================================\n"); // separator line
+            writer.write("=====================================\n");
             System.out.println("Receipt saved to " + filename);
         } catch (IOException e) {
             System.out.println("Error saving receipt: " + e.getMessage());
