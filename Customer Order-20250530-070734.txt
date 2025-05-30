@@ -1,0 +1,12 @@
+--- Grubbin Sandwich Deli Receipt ---
+Order placed: 20250530-070734
+
+Order details:
+1. 8-inch Current Sandwich: White bread, Roast beef (extra), Swiss cheese, with Lettuce, Peppers, with Mayo, Vinaigrette, toasted - $11.50
+2. Medium Water - $2.50
+3. Doritos Chips - $1.50
+
+Total: $15.50
+
+Thank you for your order!
+=====================================
