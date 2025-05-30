@@ -1,0 +1,12 @@
+--- Grubbin Sandwich Deli Receipt ---
+Order placed: 20250530-072421
+
+Order details:
+1. 8-inch Current Sandwich: Wrap bread, Salami, American cheese (extra cheese), with Lettuce, Peppers, Guacamole, with Ranch, Thousand Island, toasted - $11.10
+2. Large Apple Juice - $3.00
+3. Pretzels Chips - $1.50
+
+Total: $15.60
+
+Thank you for your order!
+=====================================
