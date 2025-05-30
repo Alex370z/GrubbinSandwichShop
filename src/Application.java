@@ -306,6 +306,125 @@ public class Application {
                     System.out.println("Order cancelled returning to main menu...");
                     return; // return to main menu
 
+                case "2":
+                    // Drink Size
+                    String drinkSize = "";
+                    double drinkPrice = 0.0;
+                    while (true) {
+                        System.out.println("\n--- Choose Drink Size ---");
+                        System.out.println("1. Small ($2.00)");
+                        System.out.println("2. Medium ($2.50)");
+                        System.out.println("3. Large ($3.00)");
+                        System.out.print("Enter choice: ");
+                        String sizeChoice = scanner.nextLine();
+
+                        switch (sizeChoice) {
+                            case "1":
+                                drinkSize = "Small";
+                                drinkPrice = 2.00;
+                                break;
+                            case "2":
+                                drinkSize = "Medium";
+                                drinkPrice = 2.50;
+                                break;
+                            case "3":
+                                drinkSize = "Large";
+                                drinkPrice = 3.00;
+                                break;
+                            default:
+                                System.out.println("Invalid size. Please try again.");
+                                continue;
+                        }
+                        break;
+                    }
+
+                    // Drink Flavor
+                    String drinkFlavor = "";
+                    while (true) {
+                        System.out.println("\n--- Choose Drink Flavor ---");
+                        System.out.println("1. Coca Cola");
+                        System.out.println("2. Sprite");
+                        System.out.println("3. Pepsi");
+                        System.out.println("4. Apple Juice");
+                        System.out.println("5. Water");
+                        System.out.print("Enter choice: ");
+                        String flavorChoice = scanner.nextLine();
+
+                        switch (flavorChoice) {
+                            case "1":
+                                drinkFlavor = "Coca Cola";
+                                break;
+                            case "2":
+                                drinkFlavor = "Sprite";
+                                break;
+                            case "3":
+                                drinkFlavor = "Pepsi";
+                                break;
+                            case "4":
+                                drinkFlavor = "Apple Juice";
+                                break;
+                            case "5":
+                                drinkFlavor = "Water";
+                                break;
+                            default:
+                                System.out.println("Invalid flavor. Please try again.");
+                                continue;
+                        }
+                        break;
+                    }
+
+
+                    // Add to order
+                    String drinkDesc = drinkSize + " " + drinkFlavor + " - $" + String.format("%.2f", drinkPrice);
+                    order.add(drinkDesc);
+                    total += drinkPrice;
+
+                    System.out.println("\n--- Drink Added ---");
+                    System.out.println(drinkDesc);
+                    break;
+
+                case "3":
+                    // Chips Selection
+                    String chipType = "";
+                    double chipPrice = 1.50;
+                    while (true) {
+                        System.out.println("\n--- Choose Chips ---");
+                        System.out.println("1. Doritos");
+                        System.out.println("2. Cheetos");
+                        System.out.println("3. Pringles");
+                        System.out.println("4. Pretzels");
+                        System.out.print("Enter choice: ");
+                        String chipChoice = scanner.nextLine();
+
+                        switch (chipChoice) {
+                            case "1":
+                                chipType = "Doritos";
+                                break;
+                            case "2":
+                                chipType = "Cheetos";
+                                break;
+                            case "3":
+                                chipType = "Pringles";
+                                break;
+                            case "4":
+                                chipType = "Pretzels";
+                                break;
+                            default:
+                                System.out.println("Invalid choice. Please try again.");
+                                continue;
+                        }
+                        break;
+                    }
+
+                    String chipDesc = chipType + " Chips - $" + String.format("%.2f", chipPrice);
+                    order.add(chipDesc);
+                    total += chipPrice;
+
+                    System.out.println("\n--- Chips Added ---");
+                    System.out.println(chipDesc);
+                    break;
+
+
 
 
                 case "4":

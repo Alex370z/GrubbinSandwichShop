@@ -1,9 +1,32 @@
 --- Grubbin Sandwich Deli Receipt ---
-Order placed: 20250529-153334
+Order placed: 20250529-180429
 
 Order details:
-1. 12-inch Current Sandwich: Wheat bread, Steak (extra), American cheese (extra cheese), with Cucumbers, Pickles, with Mustard, toasted - $17.65
+1. Doritos Chips - $1.50
+2. Small Coca Cola - $2.00
 
-Total: $17.65
+Total: $3.50
 
 Thank you for your order!
+--- Grubbin Sandwich Deli Receipt ---
+Order placed: 20250529-180833
+
+Order details:
+1. Doritos Chips - $1.50
+2. Small Coca Cola - $2.00
+
+Total: $3.50
+
+Thank you for your order!
+=====================================
+--- Grubbin Sandwich Deli Receipt ---
+Order placed: 20250529-180901
+
+Order details:
+1. Small Coca Cola - $2.00
+2. Pretzels Chips - $1.50
+
+Total: $3.50
+
+Thank you for your order!
+=====================================
