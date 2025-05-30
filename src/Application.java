@@ -10,7 +10,7 @@ public class Application {
 
     public static void mainMenu() {
         while (true) {
-            System.out.println("\n--- Welcome to Grubbin Sandwich Deli ---");
+            System.out.println("\n--- Welcome to the Grubbin Sandwich Deli ---");
             System.out.println("1. Add Order");
             System.out.println("0. Exit");
             System.out.print("Choose an option: ");
