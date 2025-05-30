@@ -384,7 +384,7 @@ public class Application {
                     break;
 
                 case "3":
-                    // Chips Selection
+                    // Chips Selections
                     String chipType = "";
                     double chipPrice = 1.50;
                     while (true) {
